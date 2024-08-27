@@ -32,8 +32,7 @@ This project is a blog application that displays a list of blogs. Users can clic
 ```bash
 Copy code
 cd your-repo
-Install Dependencies
-3.**Install Dependencies**
+3. **Install Dependencies**
 ```bash
 Copy code
 npm install
@@ -42,7 +41,7 @@ or
 ```bash
 Copy code
 yarn install
-4.Run the Development Server
+4.**Run the Development Server**
 
 ```bash
 Copy code
