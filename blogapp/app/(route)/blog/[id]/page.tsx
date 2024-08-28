@@ -71,7 +71,7 @@ const relatedBlogs: Blog[] = [
       "A little personality goes a long way, especially on a business blog. So don’t be afraid to let loose.", // Short description of the blog
   },
 ];
-const page = ({ params }: { params: { id: string } }) => {
+const Page = ({ params }: { params: { id: string } }) => {
   const [data, setData] = useState<BlogDes>();
   useEffect(() => {
     const fetchData = async () => {
@@ -119,4 +119,4 @@ const page = ({ params }: { params: { id: string } }) => {
   );
 };
 
-export default page;
+export default Page;
