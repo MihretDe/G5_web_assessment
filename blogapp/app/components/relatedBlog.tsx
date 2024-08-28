@@ -41,8 +41,8 @@ const RelatedBlog = ({ relatedBlogs }: { relatedBlogs: Blog[] }) => {
               </p>
             </div>
             <div className="flex pb-4 px-4 justify-between">
-              {blog.feature.map((item) => (
-                <div className="border rounded-[122px] w-[156px] h-[32px] bg-[#F5F5F5] flex flex-row justify-center items-center outline-none">
+              {blog.feature.map((item ,index) => (
+                <div key={index} className="border rounded-[122px] w-[156px] h-[32px] bg-[#F5F5F5] flex flex-row justify-center items-center outline-none">
                   <p className="font-montserrat font-semibold text-[17px] text-[#8E8E8E]">
                     {item}
                   </p>

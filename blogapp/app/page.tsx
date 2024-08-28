@@ -72,9 +72,10 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col gap-14 mx-44">
-        {data.slice(4, 9).map((blog) => (
+        {data.slice(4, 9).map((blog , index) => (
           
           <Blog
+          key={index}
             id = {blog._id}
             icon="/assets/icon.svg"
             name={blog.author.name || "John"}

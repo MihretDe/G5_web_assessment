@@ -65,8 +65,8 @@ return (
                 
                 </div>
                 <div className="flex gap-3">
-            {feature.map((item) => ( 
-                <div className="border rounded-[122px] w-[167px] h-[58px] bg-[#F5F5F5] flex flex-row justify-center items-center outline-none">
+            {feature.map((item , index) => ( 
+                <div key={index} className="border rounded-[122px] w-[167px] h-[58px] bg-[#F5F5F5] flex flex-row justify-center items-center outline-none">
                     <p className="font-montserrat font-semibold text-[17px] text-[#8E8E8E]">
                         {item}
                     </p>
